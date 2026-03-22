@@ -26,18 +26,18 @@ jobs:
       - name: Validate frontend env vars
         env:
           REACT_APP_CLERK_PUBLISHABLE_KEY: ${{ secrets.REACT_APP_CLERK_PUBLISHABLE_KEY }}
-          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL }}
-          REACT_APP_SOCKET_URL: ${{ vars.REACT_APP_SOCKET_URL }}
+          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL || 'https://iplwithfriends-app-a7fbf7a2b8f8eeb7.centralindia-01.azurewebsites.net' }}
+          REACT_APP_SOCKET_URL: ${{ vars.REACT_APP_SOCKET_URL || 'https://iplwithfriends-app-a7fbf7a2b8f8eeb7.centralindia-01.azurewebsites.net' }}
         run: |
           test -n "$REACT_APP_CLERK_PUBLISHABLE_KEY" || (echo "Missing secret: REACT_APP_CLERK_PUBLISHABLE_KEY" && exit 1)
-          test -n "$REACT_APP_API_URL" || (echo "Missing repo variable: REACT_APP_API_URL" && exit 1)
-          test -n "$REACT_APP_SOCKET_URL" || (echo "Missing repo variable: REACT_APP_SOCKET_URL" && exit 1)
+          test -n "$REACT_APP_API_URL" || (echo "Missing REACT_APP_API_URL" && exit 1)
+          test -n "$REACT_APP_SOCKET_URL" || (echo "Missing REACT_APP_SOCKET_URL" && exit 1)
 
       - name: Create client env file
         env:
           REACT_APP_CLERK_PUBLISHABLE_KEY: ${{ secrets.REACT_APP_CLERK_PUBLISHABLE_KEY }}
-          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL }}
-          REACT_APP_SOCKET_URL: ${{ vars.REACT_APP_SOCKET_URL }}
+          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL || 'https://iplwithfriends-app-a7fbf7a2b8f8eeb7.centralindia-01.azurewebsites.net' }}
+          REACT_APP_SOCKET_URL: ${{ vars.REACT_APP_SOCKET_URL || 'https://iplwithfriends-app-a7fbf7a2b8f8eeb7.centralindia-01.azurewebsites.net' }}
         run: |
           {
             echo "REACT_APP_CLERK_PUBLISHABLE_KEY=$REACT_APP_CLERK_PUBLISHABLE_KEY"
@@ -48,8 +48,8 @@ jobs:
       - name: npm install, build, and test
         env:
           REACT_APP_CLERK_PUBLISHABLE_KEY: ${{ secrets.REACT_APP_CLERK_PUBLISHABLE_KEY }}
-          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL }}
-          REACT_APP_SOCKET_URL: ${{ vars.REACT_APP_SOCKET_URL }}
+          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL || 'https://iplwithfriends-app-a7fbf7a2b8f8eeb7.centralindia-01.azurewebsites.net' }}
+          REACT_APP_SOCKET_URL: ${{ vars.REACT_APP_SOCKET_URL || 'https://iplwithfriends-app-a7fbf7a2b8f8eeb7.centralindia-01.azurewebsites.net' }}
         run: |
           npm install
           npm run build --if-present
