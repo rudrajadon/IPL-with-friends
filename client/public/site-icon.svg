@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="#020617"/>
+
+  <!-- stars -->
+  <path d="M256 58l10 20 22 3-16 15 4 22-20-10-20 10 4-22-16-15 22-3 10-20z" fill="#F8FAFC"/>
+  <path d="M192 86l7 14 16 2-12 11 3 16-14-7-14 7 3-16-12-11 16-2 7-14z" fill="#CBD5E1"/>
+  <path d="M320 86l7 14 16 2-12 11 3 16-14-7-14 7 3-16-12-11 16-2 7-14z" fill="#CBD5E1"/>
+
+  <!-- ball -->
+  <circle cx="256" cy="170" r="42" fill="#E2E8F0" stroke="#0F172A" stroke-width="8"/>
+  <path d="M228 144c18 16 38 36 56 56" stroke="#0F172A" stroke-width="7" stroke-linecap="round"/>
+  <path d="M216 156c20 18 46 44 64 64" stroke="#0F172A" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- cricket bat -->
+  <g transform="rotate(-32 215 290)">
+    <rect x="154" y="190" width="42" height="190" rx="16" fill="#94A3B8"/>
+    <rect x="170" y="355" width="10" height="88" rx="5" fill="#64748B"/>
+    <rect x="160" y="208" width="30" height="8" rx="4" fill="#F8FAFC" fill-opacity="0.7"/>
+  </g>
+
+  <!-- gavel -->
+  <g transform="rotate(38 300 308)">
+    <rect x="283" y="220" width="34" height="188" rx="12" fill="#94A3B8"/>
+    <rect x="252" y="182" width="96" height="32" rx="10" fill="#E2E8F0" stroke="#0F172A" stroke-width="6"/>
+    <rect x="247" y="210" width="106" height="20" rx="8" fill="#CBD5E1"/>
+  </g>
+</svg>
