@@ -1,4 +1,7 @@
-require("dotenv").config();
+try {
+  // Optional in production (e.g., Azure) where env vars are injected by the platform.
+  require("dotenv").config();
+} catch (_) {}
 const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
