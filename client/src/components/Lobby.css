@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap");
+
+.lobby-page,
+.lobby-page * {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.lobby-page {
+  position: relative;
+  background: radial-gradient(circle at top right, #1e293b, #09090b);
+  color: #ffffff;
+  height: 100vh;
+  overflow: hidden; /* Prevents whole-page scrolling */
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px 40px;
+}
+
+.lobby-page .fullscreen-prompt {
+  position: absolute;
+  top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #a1a1aa;
+  backdrop-filter: blur(4px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lobby-page .esc-key {
+  border: 1px solid #a1a1aa;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  font-family: monospace;
+}
+
+.lobby-container {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%; /* Takes full available height */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Glassmorphism Reusable Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  box-shadow:
+    0 25px 50px -12px rgba(0, 0, 0, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.02);
+  padding: 30px;
+}
+
+/* Header Elements */
+.lobby-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  flex-shrink: 0; /* Prevents header from shrinking on small screens */
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-image {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+}
+
+.lobby-page .title {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #f8fafc;
+  margin: 0 0 4px 0;
+}
+
+.lobby-page .highlight {
+  background: linear-gradient(to right, #60a5fa, #a78bfa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lobby-page .subtitle {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.room-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.stat-box {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #f8fafc;
+}
+
+.highlight-text {
+  color: #60a5fa;
+}
+
+/* Main Grid Layout */
+.lobby-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  flex: 1; /* Allows grid to take up the remaining vertical space */
+  min-height: 0; /* Crucial for preventing nested items from bursting out */
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #e4e4e7;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+}
+
+/* Teams Section (Left Column) */
+.teams-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* Ensures the card respects the grid boundary */
+}
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  flex: 1; /* Expands to fill the remaining height of teams-section */
+  overflow-y: auto; /* Adds scrolling if teams overflow */
+  min-height: 0;
+  padding-right: 8px; /* Room for scrollbar */
+  padding-bottom: 8px;
+}
+
+.team-card {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.team-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.team-card.selected {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: #3b82f6;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.team-avatar {
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: #e4e4e7;
+}
+
+.team-name {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+
+.team-owner {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* Buttons and Tags */
+.select-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #e4e4e7;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.select-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.team-card:hover .select-btn:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.feature-tag {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #cbd5e1;
+}
+
+.active-tag {
+  background: #3b82f6;
+  color: white;
+  border: none;
+}
+
+/* Sidebar Elements (Right Column) */
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 0; /* Respect grid boundary */
+}
+
+.admin-card {
+  flex-shrink: 0; /* Stays at its natural height */
+}
+
+.admin-desc {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 18px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
+}
+
+.btn-primary:not(:disabled):hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+}
+
+.disabled-btn {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #334155;
+  box-shadow: none;
+}
+
+/* Rules Section */
+.rules-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Takes up the remaining space under the admin card */
+  min-height: 0;
+}
+
+.rules-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1; /* Takes remaining height inside the rules card */
+  overflow-y: auto; /* Only scrolls if rules exceed available height */
+  min-height: 0;
+  padding-right: 8px; /* For scrollbar padding */
+  padding-bottom: 8px;
+}
+
+.rules-list li {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.rules-list strong {
+  color: #e4e4e7;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Shared Custom Scrollbar Logic */
+.rules-list::-webkit-scrollbar,
+.teams-grid::-webkit-scrollbar {
+  width: 6px;
+}
+
+.rules-list::-webkit-scrollbar-track,
+.teams-grid::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+}
+
+.rules-list::-webkit-scrollbar-thumb,
+.teams-grid::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.rules-list::-webkit-scrollbar-thumb:hover,
+.teams-grid::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .lobby-grid {
+    grid-template-columns: 1fr;
+    overflow-y: auto; /* Fallback scrolling for mobile */
+  }
+  .teams-section,
+  .sidebar-section {
+    flex-shrink: 0; /* Allows full size on mobile stack */
+  }
+  .teams-grid,
+  .rules-list {
+    overflow-y: visible; /* Prevent nested scrolling on mobile */
+  }
+  .lobby-header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .teams-grid {
+    grid-template-columns: 1fr;
+  }
+}

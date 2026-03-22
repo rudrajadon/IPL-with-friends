@@ -1,0 +1,2920 @@
+{
+  "players_2018": [
+    {
+      "player_id": 1,
+      "player_name": "MS Dhoni",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/ms-dhoni.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 15,
+        "runs_scored": 455,
+        "strike_rate": 150.66,
+        "average": 75.83,
+        "highest_score": "79*",
+        "fours": 24,
+        "sixes": 30
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 2, "catches_taken": 11, "stumpings": 3 }
+    },
+    {
+      "player_id": 2,
+      "player_name": "Suresh Raina",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/suresh-raina.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 15,
+        "runs_scored": 445,
+        "strike_rate": 132.44,
+        "average": 37.08,
+        "highest_score": "75*",
+        "fours": 46,
+        "sixes": 12
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 12, "average": null },
+      "fielding_stats": { "run_outs": 1, "catches_taken": 8, "stumpings": 0 }
+    },
+    {
+      "player_id": 3,
+      "player_name": "Ravindra Jadeja",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/ravindra-jadeja.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 11,
+        "runs_scored": 89,
+        "strike_rate": 120.27,
+        "average": 17.8,
+        "highest_score": "27*",
+        "fours": 3,
+        "sixes": 4
+      },
+      "bowling_stats": {
+        "wickets_taken": 11,
+        "economy": 7.39,
+        "average": 29.27
+      },
+      "fielding_stats": { "run_outs": 1, "catches_taken": 11, "stumpings": 0 }
+    },
+    {
+      "player_id": 4,
+      "player_name": "Kedar Jadhav",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/kedar-jadhav.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 24,
+        "strike_rate": 109.09,
+        "average": null,
+        "highest_score": "24*",
+        "fours": 1,
+        "sixes": 2
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 5,
+      "player_name": "Dwayne Bravo",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/dwayne-bravo.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 9,
+        "runs_scored": 141,
+        "strike_rate": 154.94,
+        "average": 35.25,
+        "highest_score": "68",
+        "fours": 6,
+        "sixes": 9
+      },
+      "bowling_stats": {
+        "wickets_taken": 14,
+        "economy": 9.96,
+        "average": 32.71
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 9, "stumpings": 0 }
+    },
+    {
+      "player_id": 6,
+      "player_name": "Karn Sharma",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/karn-sharma.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 2,
+        "runs_scored": 1,
+        "strike_rate": 50,
+        "average": 0.5,
+        "highest_score": "1",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 4,
+        "economy": 9.36,
+        "average": 42.25
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 7,
+      "player_name": "Shane Watson",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/shane-watson.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 15,
+        "runs_scored": 555,
+        "strike_rate": 154.59,
+        "average": 39.64,
+        "highest_score": "117*",
+        "fours": 44,
+        "sixes": 35
+      },
+      "bowling_stats": {
+        "wickets_taken": 6,
+        "economy": 8.96,
+        "average": 40.83
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 4, "stumpings": 0 }
+    },
+    {
+      "player_id": 8,
+      "player_name": "Shardul Thakur",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/shardul-thakur.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 36,
+        "strike_rate": 200,
+        "average": 18,
+        "highest_score": "15*",
+        "fours": 2,
+        "sixes": 3
+      },
+      "bowling_stats": {
+        "wickets_taken": 16,
+        "economy": 9.23,
+        "average": 26.93
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 4, "stumpings": 0 }
+    },
+    {
+      "player_id": 9,
+      "player_name": "Ambati Rayudu",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/ambati-rayudu.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 16,
+        "runs_scored": 602,
+        "strike_rate": 149.75,
+        "average": 43,
+        "highest_score": "100*",
+        "fours": 53,
+        "sixes": 34
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 9, "stumpings": 0 }
+    },
+    {
+      "player_id": 10,
+      "player_name": "Murali Vijay",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/murali-vijay.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 12,
+        "strike_rate": 120,
+        "average": 12,
+        "highest_score": "12",
+        "fours": 1,
+        "sixes": 1
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 11,
+      "player_name": "Harbhajan Singh",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/harbhajan-singh.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 4,
+        "runs_scored": 20,
+        "strike_rate": 153.84,
+        "average": 10,
+        "highest_score": "8*",
+        "fours": 1,
+        "sixes": 1
+      },
+      "bowling_stats": { "wickets_taken": 7, "economy": 8.48, "average": 37 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 12,
+      "player_name": "Faf du Plessis",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/faf-du-plessis.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 6,
+        "runs_scored": 162,
+        "strike_rate": 125.58,
+        "average": 32.4,
+        "highest_score": "67*",
+        "fours": 11,
+        "sixes": 8
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 7, "stumpings": 0 }
+    },
+    {
+      "player_id": 13,
+      "player_name": "Mark Wood",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/mark-wood.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 1,
+        "strike_rate": 50,
+        "average": 1,
+        "highest_score": "1",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 0,
+        "economy": 12.25,
+        "average": null
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 14,
+      "player_name": "Sam Billings",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/sam-billings.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 10,
+        "runs_scored": 108,
+        "strike_rate": 138.46,
+        "average": 13.5,
+        "highest_score": "56",
+        "fours": 7,
+        "sixes": 5
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 15,
+      "player_name": "Imran Tahir",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/imran-tahir.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 2,
+        "strike_rate": 66.66,
+        "average": null,
+        "highest_score": "2*",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 6,
+        "economy": 9.09,
+        "average": 34.16
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 16,
+      "player_name": "Deepak Chahar",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/deepak-chahar.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 7,
+        "strike_rate": 100,
+        "average": 3.5,
+        "highest_score": "5",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 10,
+        "economy": 7.28,
+        "average": 27.8
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 17,
+      "player_name": "Mitchell Santner",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/mitchell-santner.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 18,
+      "player_name": "Lungi Ngidi",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/lungi-ngidi.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 1,
+        "strike_rate": 100,
+        "average": null,
+        "highest_score": "1*",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 11, "economy": 6, "average": 14.18 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 19,
+      "player_name": "Asif K M",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/asif-k-m.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 3,
+        "economy": 10.75,
+        "average": 28.66
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 20,
+      "player_name": "N Jagadeesan",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/n-jagadeesan.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 21,
+      "player_name": "Kanishk Seth",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/kanishk-seth.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 22,
+      "player_name": "Monu Singh",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/monu-singh.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 23,
+      "player_name": "Dhruv Shorey",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/dhruv-shorey.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 2,
+        "runs_scored": 13,
+        "strike_rate": 86.66,
+        "average": 6.5,
+        "highest_score": "8",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 24,
+      "player_name": "Kshitiz Sharma",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/kshitiz-sharma.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 25,
+      "player_name": "Chaitanya Bishnoi",
+      "team_name": "Chennai Super Kings",
+      "image_url": "images/chaitanya-bishnoi.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 26,
+      "player_name": "Rishabh Pant",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/rishabh-pant.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 684,
+        "strike_rate": 173.6,
+        "average": 52.61,
+        "highest_score": "128*",
+        "fours": 68,
+        "sixes": 37
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 1, "catches_taken": 4, "stumpings": 2 }
+    },
+    {
+      "player_id": 27,
+      "player_name": "Shreyas Iyer",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/shreyas-iyer.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 411,
+        "strike_rate": 132.58,
+        "average": 37.36,
+        "highest_score": "93*",
+        "fours": 29,
+        "sixes": 21
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 6, "stumpings": 0 }
+    },
+    {
+      "player_id": 28,
+      "player_name": "Chris Morris",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/chris-morris.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 4,
+        "runs_scored": 46,
+        "strike_rate": 170.37,
+        "average": 23,
+        "highest_score": "27*",
+        "fours": 4,
+        "sixes": 3
+      },
+      "bowling_stats": {
+        "wickets_taken": 3,
+        "economy": 10.21,
+        "average": 42.66
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 29,
+      "player_name": "Glenn Maxwell",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/glenn-maxwell.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 12,
+        "runs_scored": 169,
+        "strike_rate": 140.83,
+        "average": 14.08,
+        "highest_score": "47",
+        "fours": 12,
+        "sixes": 9
+      },
+      "bowling_stats": { "wickets_taken": 5, "economy": 8.11, "average": 27.6 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 5, "stumpings": 0 }
+    },
+    {
+      "player_id": 30,
+      "player_name": "Kagiso Rabada",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/kagiso-rabada.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 31,
+      "player_name": "Amit Mishra",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/amit-mishra.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 3,
+        "runs_scored": 29,
+        "strike_rate": 131.81,
+        "average": 14.5,
+        "highest_score": "20",
+        "fours": 3,
+        "sixes": 1
+      },
+      "bowling_stats": {
+        "wickets_taken": 12,
+        "economy": 7.13,
+        "average": 22.08
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 32,
+      "player_name": "Shahbaz Nadeem",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/shahbaz-nadeem.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 3, "economy": 10.25, "average": 41 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 33,
+      "player_name": "Vijay Shankar",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/vijay-shankar.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 11,
+        "runs_scored": 212,
+        "strike_rate": 143.24,
+        "average": 53,
+        "highest_score": "54*",
+        "fours": 11,
+        "sixes": 11
+      },
+      "bowling_stats": { "wickets_taken": 1, "economy": 9.5, "average": 57 },
+      "fielding_stats": { "run_outs": 2, "catches_taken": 4, "stumpings": 0 }
+    },
+    {
+      "player_id": 34,
+      "player_name": "Rahul Tewatia",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/rahul-tewatia.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 8,
+        "runs_scored": 50,
+        "strike_rate": 111.11,
+        "average": 12.5,
+        "highest_score": "24",
+        "fours": 5,
+        "sixes": 1
+      },
+      "bowling_stats": { "wickets_taken": 6, "economy": 7.85, "average": 29.5 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 6, "stumpings": 0 }
+    },
+    {
+      "player_id": 35,
+      "player_name": "Mohammad Shami",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/mohammad-shami.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 2,
+        "runs_scored": 5,
+        "strike_rate": 100,
+        "average": 5,
+        "highest_score": "5",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 3, "economy": 10.4, "average": 52 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 36,
+      "player_name": "Gautam Gambhir",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/gautam-gambhir.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 6,
+        "runs_scored": 85,
+        "strike_rate": 96.59,
+        "average": 17,
+        "highest_score": "55",
+        "fours": 7,
+        "sixes": 1
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 37,
+      "player_name": "Trent Boult",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/trent-boult.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 4,
+        "runs_scored": 12,
+        "strike_rate": 109.09,
+        "average": 6,
+        "highest_score": "6*",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 18,
+        "economy": 8.84,
+        "average": 25.88
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 8, "stumpings": 0 }
+    },
+    {
+      "player_id": 38,
+      "player_name": "Colin Munro",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/colin-munro.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 63,
+        "strike_rate": 123.52,
+        "average": 12.6,
+        "highest_score": "33",
+        "fours": 6,
+        "sixes": 4
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 39,
+      "player_name": "Daniel Christian",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/daniel-christian.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 4,
+        "runs_scored": 26,
+        "strike_rate": 78.78,
+        "average": 13,
+        "highest_score": "22",
+        "fours": 0,
+        "sixes": 1
+      },
+      "bowling_stats": {
+        "wickets_taken": 4,
+        "economy": 10.76,
+        "average": 36.66
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 40,
+      "player_name": "Jason Roy",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/jason-roy.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 120,
+        "strike_rate": 127.65,
+        "average": 30,
+        "highest_score": "91*",
+        "fours": 10,
+        "sixes": 6
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 41,
+      "player_name": "Naman Ojha",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/naman-ojha.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 1,
+        "strike_rate": 50,
+        "average": 1,
+        "highest_score": "1",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 42,
+      "player_name": "Prithvi Shaw",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/prithvi-shaw.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 9,
+        "runs_scored": 245,
+        "strike_rate": 153.12,
+        "average": 27.22,
+        "highest_score": "65",
+        "fours": 26,
+        "sixes": 10
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 43,
+      "player_name": "Gurkeerat Singh Mann",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/gurkeerat-singh-mann.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 44,
+      "player_name": "Avesh Khan",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/avesh-khan.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 2,
+        "runs_scored": 4,
+        "strike_rate": 66.66,
+        "average": 4,
+        "highest_score": "4",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 4, "economy": 10.38, "average": 45 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 45,
+      "player_name": "Abhishek Sharma",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/abhishek-sharma.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 3,
+        "runs_scored": 63,
+        "strike_rate": 190.9,
+        "average": 63,
+        "highest_score": "46*",
+        "fours": 3,
+        "sixes": 7
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 15, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 46,
+      "player_name": "Jayant Yadav",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/jayant-yadav.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 47,
+      "player_name": "Harshal Patel",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/harshal-patel.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 3,
+        "runs_scored": 60,
+        "strike_rate": 157.89,
+        "average": 60,
+        "highest_score": "36*",
+        "fours": 1,
+        "sixes": 6
+      },
+      "bowling_stats": {
+        "wickets_taken": 7,
+        "economy": 8.78,
+        "average": 30.28
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 48,
+      "player_name": "Manjot Kalra",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/manjot-kalra.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 49,
+      "player_name": "Sandeep Lamichhane",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/sandeep-lamichhane.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 5, "economy": 6.83, "average": 16.4 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 50,
+      "player_name": "Sayan Ghosh",
+      "team_name": "Delhi Daredevils",
+      "image_url": "images/sayan-ghosh.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 51,
+      "player_name": "Axar Patel",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/axar-patel.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 9,
+        "runs_scored": 80,
+        "strike_rate": 115.94,
+        "average": 13.33,
+        "highest_score": "34",
+        "fours": 3,
+        "sixes": 4
+      },
+      "bowling_stats": {
+        "wickets_taken": 3,
+        "economy": 8.38,
+        "average": 72.66
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 4, "stumpings": 0 }
+    },
+    {
+      "player_id": 52,
+      "player_name": "KL Rahul",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/kl-rahul.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 659,
+        "strike_rate": 158.41,
+        "average": 54.91,
+        "highest_score": "95*",
+        "fours": 66,
+        "sixes": 32
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 1, "catches_taken": 10, "stumpings": 1 }
+    },
+    {
+      "player_id": 53,
+      "player_name": "Ravichandran Ashwin",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/ravichandran-ashwin.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 10,
+        "runs_scored": 102,
+        "strike_rate": 147.82,
+        "average": 17,
+        "highest_score": "45",
+        "fours": 8,
+        "sixes": 4
+      },
+      "bowling_stats": {
+        "wickets_taken": 10,
+        "economy": 8.09,
+        "average": 41.3
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 54,
+      "player_name": "Andrew Tye",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/andrew-tye.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 20,
+        "strike_rate": 105.26,
+        "average": 6.66,
+        "highest_score": "13*",
+        "fours": 0,
+        "sixes": 1
+      },
+      "bowling_stats": { "wickets_taken": 24, "economy": 8, "average": 18.66 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 55,
+      "player_name": "Aaron Finch",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/aaron-finch.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 9,
+        "runs_scored": 134,
+        "strike_rate": 134,
+        "average": 16.75,
+        "highest_score": "46",
+        "fours": 6,
+        "sixes": 13
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 5, "stumpings": 0 }
+    },
+    {
+      "player_id": 56,
+      "player_name": "Marcus Stoinis",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/marcus-stoinis.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 7,
+        "runs_scored": 99,
+        "strike_rate": 113.79,
+        "average": 24.75,
+        "highest_score": "23*",
+        "fours": 8,
+        "sixes": 3
+      },
+      "bowling_stats": {
+        "wickets_taken": 3,
+        "economy": 10.46,
+        "average": 54.33
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 57,
+      "player_name": "Karun Nair",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/karun-nair.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 13,
+        "runs_scored": 301,
+        "strike_rate": 136.19,
+        "average": 25.08,
+        "highest_score": "50",
+        "fours": 29,
+        "sixes": 10
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 7, "stumpings": 0 }
+    },
+    {
+      "player_id": 58,
+      "player_name": "Mujeeb Zadran",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/mujeeb-zadran.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 3,
+        "runs_scored": 5,
+        "strike_rate": 83.33,
+        "average": 2.5,
+        "highest_score": "4",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 14,
+        "economy": 6.99,
+        "average": 20.64
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 59,
+      "player_name": "Ankit Rajpoot",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/ankit-rajpoot.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 2,
+        "strike_rate": 100,
+        "average": null,
+        "highest_score": "2*",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 11,
+        "economy": 8.52,
+        "average": 20.27
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 60,
+      "player_name": "David Miller",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/david-miller.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 3,
+        "runs_scored": 74,
+        "strike_rate": 134.54,
+        "average": 24.66,
+        "highest_score": "26",
+        "fours": 3,
+        "sixes": 5
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 61,
+      "player_name": "Mohit Sharma",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/mohit-sharma.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 0,
+        "strike_rate": 0,
+        "average": 0,
+        "highest_score": "0",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 7, "economy": 10.85, "average": 46 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 62,
+      "player_name": "Barinder Sran",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/barinder-sran.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 4,
+        "strike_rate": 133.33,
+        "average": null,
+        "highest_score": "4*",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 4, "economy": 10.4, "average": 41.5 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 63,
+      "player_name": "Yuvraj Singh",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/yuvraj-singh.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 6,
+        "runs_scored": 65,
+        "strike_rate": 89.04,
+        "average": 10.83,
+        "highest_score": "20",
+        "fours": 6,
+        "sixes": 2
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 11.5, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 64,
+      "player_name": "Chris Gayle",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/chris-gayle.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 11,
+        "runs_scored": 368,
+        "strike_rate": 146.03,
+        "average": 40.88,
+        "highest_score": "104*",
+        "fours": 30,
+        "sixes": 27
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 13, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 65,
+      "player_name": "Ben Dwarshuis",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/ben-dwarshuis.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 66,
+      "player_name": "Akshdeep Nath",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/akshdeep-nath.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 0,
+        "strike_rate": 0,
+        "average": 0,
+        "highest_score": "0",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 67,
+      "player_name": "Manoj Tiwary",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/manoj-tiwary.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 47,
+        "strike_rate": 104.44,
+        "average": 11.75,
+        "highest_score": "35",
+        "fours": 5,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 5, "stumpings": 0 }
+    },
+    {
+      "player_id": 68,
+      "player_name": "Mayank Agarwal",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/mayank-agarwal.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 11,
+        "runs_scored": 120,
+        "strike_rate": 127.65,
+        "average": 12,
+        "highest_score": "30",
+        "fours": 11,
+        "sixes": 5
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 5, "stumpings": 0 }
+    },
+    {
+      "player_id": 69,
+      "player_name": "Manzoor Dar",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/manzoor-dar.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 70,
+      "player_name": "Pardeep Sahu",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/pardeep-sahu.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 71,
+      "player_name": "Mayank Dagar",
+      "team_name": "Kings XI Punjab",
+      "image_url": "images/mayank-dagar.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 72,
+      "player_name": "Sunil Narine",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/sunil-narine.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 16,
+        "runs_scored": 357,
+        "strike_rate": 189.89,
+        "average": 22.31,
+        "highest_score": "75",
+        "fours": 40,
+        "sixes": 23
+      },
+      "bowling_stats": {
+        "wickets_taken": 17,
+        "economy": 7.65,
+        "average": 27.47
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 9, "stumpings": 0 }
+    },
+    {
+      "player_id": 73,
+      "player_name": "Andre Russell",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/andre-russell.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 316,
+        "strike_rate": 184.79,
+        "average": 28.72,
+        "highest_score": "88*",
+        "fours": 17,
+        "sixes": 31
+      },
+      "bowling_stats": {
+        "wickets_taken": 13,
+        "economy": 9.38,
+        "average": 27.92
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 4, "stumpings": 0 }
+    },
+    {
+      "player_id": 74,
+      "player_name": "Chris Lynn",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/chris-lynn.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 16,
+        "runs_scored": 491,
+        "strike_rate": 130.23,
+        "average": 32.73,
+        "highest_score": "74",
+        "fours": 56,
+        "sixes": 18
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 4, "stumpings": 0 }
+    },
+    {
+      "player_id": 75,
+      "player_name": "Mitchell Starc",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/mitchell-starc.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 76,
+      "player_name": "Dinesh Karthik",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/dinesh-karthik.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 16,
+        "runs_scored": 498,
+        "strike_rate": 147.77,
+        "average": 49.8,
+        "highest_score": "52",
+        "fours": 49,
+        "sixes": 16
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 1, "catches_taken": 14, "stumpings": 4 }
+    },
+    {
+      "player_id": 77,
+      "player_name": "Robin Uthappa",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/robin-uthappa.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 16,
+        "runs_scored": 351,
+        "strike_rate": 134.48,
+        "average": 21.93,
+        "highest_score": "54",
+        "fours": 36,
+        "sixes": 14
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 5, "stumpings": 0 }
+    },
+    {
+      "player_id": 78,
+      "player_name": "Kuldeep Yadav",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/kuldeep-yadav.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 7,
+        "runs_scored": 24,
+        "strike_rate": 82.75,
+        "average": 6,
+        "highest_score": "15",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 17,
+        "economy": 8.14,
+        "average": 24.58
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 79,
+      "player_name": "Piyush Chawla",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/piyush-chawla.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 7,
+        "runs_scored": 29,
+        "strike_rate": 96.66,
+        "average": 7.25,
+        "highest_score": "11",
+        "fours": 2,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 14,
+        "economy": 8.41,
+        "average": 29.5
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 80,
+      "player_name": "Nitish Rana",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/nitish-rana.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 304,
+        "strike_rate": 131.03,
+        "average": 23.38,
+        "highest_score": "59",
+        "fours": 27,
+        "sixes": 12
+      },
+      "bowling_stats": { "wickets_taken": 4, "economy": 7.04, "average": 11 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 8, "stumpings": 0 }
+    },
+    {
+      "player_id": 81,
+      "player_name": "Kamlesh Nagarkoti",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/kamlesh-nagarkoti.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 82,
+      "player_name": "Shivam Mavi",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/shivam-mavi.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 13,
+        "strike_rate": 92.85,
+        "average": 4.33,
+        "highest_score": "7",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 5, "economy": 9.64, "average": 54 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 83,
+      "player_name": "Mitchell Johnson",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/mitchell-johnson.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 3,
+        "runs_scored": 1,
+        "strike_rate": 20,
+        "average": 0.5,
+        "highest_score": "1",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 2, "economy": 10.28, "average": 90 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 84,
+      "player_name": "Shubman Gill",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/shubman-gill.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 13,
+        "runs_scored": 203,
+        "strike_rate": 146.04,
+        "average": 33.83,
+        "highest_score": "57*",
+        "fours": 21,
+        "sixes": 5
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 85,
+      "player_name": "Vinay Kumar",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/vinay-kumar.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 1,
+        "strike_rate": 50,
+        "average": 1,
+        "highest_score": "1",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 2,
+        "economy": 16.95,
+        "average": 32.5
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 86,
+      "player_name": "Rinku Singh",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/rinku-singh.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 4,
+        "runs_scored": 29,
+        "strike_rate": 103.57,
+        "average": 7.25,
+        "highest_score": "16",
+        "fours": 4,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 87,
+      "player_name": "Cameron Delport",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/cameron-delport.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 88,
+      "player_name": "Javon Searles",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/javon-searles.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 89,
+      "player_name": "Apoorv Wankhade",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/apoorv-wankhade.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 90,
+      "player_name": "Ishank Jaggi",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/ishank-jaggi.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 91,
+      "player_name": "Rohit Sharma",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/rohit-sharma.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 286,
+        "strike_rate": 133.02,
+        "average": 23.83,
+        "highest_score": "94",
+        "fours": 29,
+        "sixes": 10
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 6, "stumpings": 0 }
+    },
+    {
+      "player_id": 92,
+      "player_name": "Hardik Pandya",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/hardik-pandya.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 13,
+        "runs_scored": 260,
+        "strike_rate": 133.33,
+        "average": 28.88,
+        "highest_score": "50",
+        "fours": 24,
+        "sixes": 11
+      },
+      "bowling_stats": {
+        "wickets_taken": 18,
+        "economy": 8.92,
+        "average": 21.16
+      },
+      "fielding_stats": { "run_outs": 3, "catches_taken": 6, "stumpings": 0 }
+    },
+    {
+      "player_id": 93,
+      "player_name": "Jasprit Bumrah",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/jasprit-bumrah.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 6,
+        "runs_scored": 14,
+        "strike_rate": 116.66,
+        "average": 7,
+        "highest_score": "6",
+        "fours": 2,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 17,
+        "economy": 6.88,
+        "average": 21.88
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 94,
+      "player_name": "Krunal Pandya",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/krunal-pandya.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 13,
+        "runs_scored": 228,
+        "strike_rate": 145.22,
+        "average": 22.8,
+        "highest_score": "41*",
+        "fours": 20,
+        "sixes": 10
+      },
+      "bowling_stats": {
+        "wickets_taken": 12,
+        "economy": 7.07,
+        "average": 23.66
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 6, "stumpings": 0 }
+    },
+    {
+      "player_id": 95,
+      "player_name": "Ishan Kishan",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/ishan-kishan.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 275,
+        "strike_rate": 149.45,
+        "average": 22.91,
+        "highest_score": "62",
+        "fours": 22,
+        "sixes": 17
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 9, "stumpings": 2 }
+    },
+    {
+      "player_id": 96,
+      "player_name": "Kieron Pollard",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/kieron-pollard.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 8,
+        "runs_scored": 133,
+        "strike_rate": 133,
+        "average": 19,
+        "highest_score": "50",
+        "fours": 9,
+        "sixes": 8
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 10, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 97,
+      "player_name": "Pat Cummins",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/pat-cummins.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 98,
+      "player_name": "Evin Lewis",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/evin-lewis.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 13,
+        "runs_scored": 382,
+        "strike_rate": 138.4,
+        "average": 29.38,
+        "highest_score": "65",
+        "fours": 32,
+        "sixes": 24
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 99,
+      "player_name": "Suryakumar Yadav",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/suryakumar-yadav.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 512,
+        "strike_rate": 133.33,
+        "average": 36.57,
+        "highest_score": "72",
+        "fours": 61,
+        "sixes": 16
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 8, "stumpings": 0 }
+    },
+    {
+      "player_id": 100,
+      "player_name": "Ben Cutting",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/ben-cutting.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 9,
+        "runs_scored": 96,
+        "strike_rate": 177.77,
+        "average": 24,
+        "highest_score": "37",
+        "fours": 5,
+        "sixes": 8
+      },
+      "bowling_stats": {
+        "wickets_taken": 5,
+        "economy": 10.75,
+        "average": 38.6
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 101,
+      "player_name": "Mustafizur Rahman",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/mustafizur-rahman.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 7,
+        "economy": 8.36,
+        "average": 32.85
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 102,
+      "player_name": "Rahul Chahar",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/rahul-chahar.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 103,
+      "player_name": "Pradeep Sangwan",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/pradeep-sangwan.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 13.5, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 104,
+      "player_name": "Jason Behrendorff",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/jason-behrendorff.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 105,
+      "player_name": "JP Duminy",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/jp-duminy.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 6,
+        "runs_scored": 36,
+        "strike_rate": 90,
+        "average": 36,
+        "highest_score": "23*",
+        "fours": 1,
+        "sixes": 2
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 11, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 106,
+      "player_name": "Saurabh Tiwary",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/saurabh-tiwary.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 107,
+      "player_name": "Tajinder Dhillon",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/tajinder-dhillon.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 108,
+      "player_name": "Akila Dananjaya",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/akila-dananjaya.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 0,
+        "strike_rate": 0,
+        "average": 0,
+        "highest_score": "0",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 11.5, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 109,
+      "player_name": "Nidheesh M D Dinesan",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/nidheesh-m-d-dinesan.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 110,
+      "player_name": "Aditya Tare",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/aditya-tare.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 111,
+      "player_name": "Siddhesh Lad",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/siddhesh-lad.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 112,
+      "player_name": "Mayank Markande",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/mayank-markande.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 4,
+        "runs_scored": 12,
+        "strike_rate": 100,
+        "average": 4,
+        "highest_score": "7",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 15,
+        "economy": 8.36,
+        "average": 24.53
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 113,
+      "player_name": "Anukul Roy",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/anukul-roy.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 114,
+      "player_name": "Mohsin Khan",
+      "team_name": "Mumbai Indians",
+      "image_url": "images/mohsin-khan.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 115,
+      "player_name": "Steve Smith",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/steve-smith.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 116,
+      "player_name": "Ben Stokes",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/ben-stokes.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 13,
+        "runs_scored": 196,
+        "strike_rate": 121.73,
+        "average": 16.33,
+        "highest_score": "45",
+        "fours": 14,
+        "sixes": 5
+      },
+      "bowling_stats": {
+        "wickets_taken": 8,
+        "economy": 8.18,
+        "average": 37.87
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 117,
+      "player_name": "Jaydev Unadkat",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/jaydev-unadkat.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 8,
+        "runs_scored": 21,
+        "strike_rate": 80.76,
+        "average": 7,
+        "highest_score": "9",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 11,
+        "economy": 9.65,
+        "average": 44.18
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 118,
+      "player_name": "Sanju Samson",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/sanju-samson.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 15,
+        "runs_scored": 441,
+        "strike_rate": 137.81,
+        "average": 31.5,
+        "highest_score": "92*",
+        "fours": 30,
+        "sixes": 19
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 9, "stumpings": 0 }
+    },
+    {
+      "player_id": 119,
+      "player_name": "Jofra Archer",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/jofra-archer.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 15,
+        "strike_rate": 136.36,
+        "average": 15,
+        "highest_score": "8*",
+        "fours": 1,
+        "sixes": 1
+      },
+      "bowling_stats": {
+        "wickets_taken": 15,
+        "economy": 8.38,
+        "average": 21.66
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 120,
+      "player_name": "Krishnappa Gowtham",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/krishnappa-gowtham.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 8,
+        "runs_scored": 126,
+        "strike_rate": 196.87,
+        "average": 18,
+        "highest_score": "33*",
+        "fours": 9,
+        "sixes": 9
+      },
+      "bowling_stats": {
+        "wickets_taken": 11,
+        "economy": 7.8,
+        "average": 26.09
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 10, "stumpings": 0 }
+    },
+    {
+      "player_id": 121,
+      "player_name": "Jos Buttler",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/jos-buttler.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 13,
+        "runs_scored": 548,
+        "strike_rate": 155.24,
+        "average": 54.8,
+        "highest_score": "95*",
+        "fours": 52,
+        "sixes": 21
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 2, "catches_taken": 9, "stumpings": 1 }
+    },
+    {
+      "player_id": 122,
+      "player_name": "Ajinkya Rahane",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/ajinkya-rahane.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 370,
+        "strike_rate": 118.21,
+        "average": 28.46,
+        "highest_score": "65*",
+        "fours": 39,
+        "sixes": 5
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 5, "stumpings": 0 }
+    },
+    {
+      "player_id": 123,
+      "player_name": "D'Arcy Short",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/darcy-short.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 7,
+        "runs_scored": 115,
+        "strike_rate": 116.16,
+        "average": 16.42,
+        "highest_score": "44",
+        "fours": 13,
+        "sixes": 2
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 6.33, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 124,
+      "player_name": "Rahul Tripathi",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/rahul-tripathi.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 12,
+        "runs_scored": 226,
+        "strike_rate": 135.32,
+        "average": 22.6,
+        "highest_score": "59",
+        "fours": 23,
+        "sixes": 7
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 125,
+      "player_name": "Dhawal Kulkarni",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/dhawal-kulkarni.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 3,
+        "runs_scored": 18,
+        "strike_rate": 128.57,
+        "average": 9,
+        "highest_score": "10",
+        "fours": 2,
+        "sixes": 1
+      },
+      "bowling_stats": {
+        "wickets_taken": 4,
+        "economy": 9.27,
+        "average": 45.75
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 126,
+      "player_name": "Zahir Khan",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/zahir-khan.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 127,
+      "player_name": "Ben Laughlin",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/ben-laughlin.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 0,
+        "strike_rate": 0,
+        "average": 0,
+        "highest_score": "0",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 9,
+        "economy": 10.15,
+        "average": 25.88
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 128,
+      "player_name": "Stuart Binny",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/stuart-binny.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 7,
+        "runs_scored": 44,
+        "strike_rate": 112.82,
+        "average": 8.8,
+        "highest_score": "22",
+        "fours": 4,
+        "sixes": 1
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 16.5, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 129,
+      "player_name": "Dushmantha Chameera",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/dushmantha-chameera.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 0,
+        "economy": 11.25,
+        "average": null
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 130,
+      "player_name": "Anureet Singh",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/anureet-singh.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 11, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 131,
+      "player_name": "Aryaman Birla",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/aryaman-birla.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 132,
+      "player_name": "Midhun S",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/midhun-s.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 133,
+      "player_name": "Shreyas Gopal",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/shreyas-gopal.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 7,
+        "runs_scored": 45,
+        "strike_rate": 100,
+        "average": 9,
+        "highest_score": "24",
+        "fours": 4,
+        "sixes": 1
+      },
+      "bowling_stats": {
+        "wickets_taken": 11,
+        "economy": 7.61,
+        "average": 21.45
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 134,
+      "player_name": "Prashant Chopra",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/prashant-chopra.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 135,
+      "player_name": "Jatin Saxena",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/jatin-saxena.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 136,
+      "player_name": "Ankit Sharma",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/ankit-sharma.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 0,
+        "runs_scored": 0,
+        "strike_rate": null,
+        "average": null,
+        "highest_score": null,
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 137,
+      "player_name": "Mahipal Lomror",
+      "team_name": "Rajasthan Royals",
+      "image_url": "images/mahipal-lomror.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 2,
+        "runs_scored": 20,
+        "strike_rate": 111.11,
+        "average": 10,
+        "highest_score": "11",
+        "fours": 1,
+        "sixes": 1
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": 12, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 138,
+      "player_name": "Virat Kohli",
+      "team_name": "Royal Challengers Bangalore",
+      "image_url": "images/virat-kohli.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 14,
+        "runs_scored": 530,
+        "strike_rate": 139.1,
+        "average": 48.18,
+        "highest_score": "92*",
+        "fours": 52,
+        "sixes": 18
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 8, "stumpings": 0 }
+    },
+    {
+      "player_id": 139,
+      "player_name": "AB de Villiers",
+      "team_name": "Royal Challengers Bangalore",
+      "image_url": "images/ab-de-villiers.png",
+      "role": "Wicket Keeper",
+      "batting_stats": {
+        "innings": 11,
+        "runs_scored": 480,
+        "strike_rate": 174.54,
+        "average": 53.33,
+        "highest_score": "90*",
+        "fours": 39,
+        "sixes": 30
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 9, "stumpings": 0 }
+    },
+    {
+      "player_id": 140,
+      "player_name": "Sarfaraz Khan",
+      "team_name": "Royal Challengers Bangalore",
+      "image_url": "images/sarfaraz-khan.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 6,
+        "runs_scored": 51,
+        "strike_rate": 124.39,
+        "average": 10.2,
+        "highest_score": "22*",
+        "fours": 6,
+        "sixes": 1
+      },
+      "bowling_stats": { "wickets_taken": 0, "economy": null, "average": null },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 0, "stumpings": 0 }
+    },
+    {
+      "player_id": 141,
+      "player_name": "Chris Woakes",
+      "team_name": "Royal Challengers Bangalore",
+      "image_url": "images/chris-woakes.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 4,
+        "runs_scored": 17,
+        "strike_rate": 89.47,
+        "average": 5.66,
+        "highest_score": "11",
+        "fours": 0,
+        "sixes": 1
+      },
+      "bowling_stats": {
+        "wickets_taken": 8,
+        "economy": 10.36,
+        "average": 23.37
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 1, "stumpings": 0 }
+    },
+    {
+      "player_id": 142,
+      "player_name": "Yuzvendra Chahal",
+      "team_name": "Royal Challengers Bangalore",
+      "image_url": "images/yuzvendra-chahal.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 3,
+        "runs_scored": 1,
+        "strike_rate": 20,
+        "average": 0.5,
+        "highest_score": "1",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": { "wickets_taken": 12, "economy": 7.26, "average": 30 },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 3, "stumpings": 0 }
+    },
+    {
+      "player_id": 143,
+      "player_name": "Umesh Yadav",
+      "team_name": "Royal Challengers Bangalore",
+      "image_url": "images/umesh-yadav.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 6,
+        "runs_scored": 29,
+        "strike_rate": 131.81,
+        "average": 9.66,
+        "highest_score": "14*",
+        "fours": 2,
+        "sixes": 2
+      },
+      "bowling_stats": {
+        "wickets_taken": 20,
+        "economy": 7.86,
+        "average": 20.9
+      },
+      "fielding_stats": { "run_outs": 0, "catches_taken": 2, "stumpings": 0 }
+    },
+    {
+      "player_id": 144,
+      "player_name": "Kane Williamson",
+      "team_name": "Sunrisers Hyderabad",
+      "image_url": "images/kane-williamson.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 17,
+        "runs_scored": 735,
+        "strike_rate": 142.44,
+        "average": 52.5,
+        "highest_score": "84",
+        "fours": 64,
+        "sixes": 28
+      },
+      "bowling_stats": {
+        "wickets_taken": 0,
+        "economy": null,
+        "average": null
+      },
+      "fielding_stats": {
+        "run_outs": 1,
+        "catches_taken": 11,
+        "stumpings": 0
+      }
+    },
+    {
+      "player_id": 145,
+      "player_name": "Rashid Khan",
+      "team_name": "Sunrisers Hyderabad",
+      "image_url": "images/rashid-khan.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 12,
+        "runs_scored": 59,
+        "strike_rate": 163.88,
+        "average": 11.8,
+        "highest_score": "34*",
+        "fours": 2,
+        "sixes": 5
+      },
+      "bowling_stats": {
+        "wickets_taken": 21,
+        "economy": 6.73,
+        "average": 21.8
+      },
+      "fielding_stats": {
+        "run_outs": 1,
+        "catches_taken": 12,
+        "stumpings": 0
+      }
+    },
+    {
+      "player_id": 146,
+      "player_name": "Shikhar Dhawan",
+      "team_name": "Sunrisers Hyderabad",
+      "image_url": "images/shikhar-dhawan.png",
+      "role": "Batsman",
+      "batting_stats": {
+        "innings": 16,
+        "runs_scored": 497,
+        "strike_rate": 136.91,
+        "average": 38.23,
+        "highest_score": "92*",
+        "fours": 59,
+        "sixes": 14
+      },
+      "bowling_stats": {
+        "wickets_taken": 0,
+        "economy": null,
+        "average": null
+      },
+      "fielding_stats": {
+        "run_outs": 0,
+        "catches_taken": 4,
+        "stumpings": 0
+      }
+    },
+    {
+      "player_id": 147,
+      "player_name": "Siddarth Kaul",
+      "team_name": "Sunrisers Hyderabad",
+      "image_url": "images/siddarth-kaul.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 5,
+        "runs_scored": 8,
+        "strike_rate": 88.88,
+        "average": 4.0,
+        "highest_score": "5*",
+        "fours": 1,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 21,
+        "economy": 8.28,
+        "average": 26.04
+      },
+      "fielding_stats": {
+        "run_outs": 1,
+        "catches_taken": 2,
+        "stumpings": 0
+      }
+    },
+    {
+      "player_id": 148,
+      "player_name": "Shakib Al Hasan",
+      "team_name": "Sunrisers Hyderabad",
+      "image_url": "images/shakib-al-hasan.png",
+      "role": "All-Rounder",
+      "batting_stats": {
+        "innings": 13,
+        "runs_scored": 239,
+        "strike_rate": 121.31,
+        "average": 21.72,
+        "highest_score": "35",
+        "fours": 26,
+        "sixes": 5
+      },
+      "bowling_stats": {
+        "wickets_taken": 14,
+        "economy": 8.01,
+        "average": 32.21
+      },
+      "fielding_stats": {
+        "run_outs": 0,
+        "catches_taken": 9,
+        "stumpings": 0
+      }
+    },
+    {
+      "player_id": 149,
+      "player_name": "Bhuvneshwar Kumar",
+      "team_name": "Sunrisers Hyderabad",
+      "image_url": "images/bhuvneshwar-kumar.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 8,
+        "runs_scored": 45,
+        "strike_rate": 136.36,
+        "average": 11.25,
+        "highest_score": "21",
+        "fours": 6,
+        "sixes": 1
+      },
+      "bowling_stats": {
+        "wickets_taken": 9,
+        "economy": 8.75,
+        "average": 39.0
+      },
+      "fielding_stats": {
+        "run_outs": 0,
+        "catches_taken": 2,
+        "stumpings": 0
+      }
+    },
+    {
+      "player_id": 150,
+      "player_name": "Prasidh Krishna",
+      "team_name": "Kolkata Knight Riders",
+      "image_url": "images/prasidh-krishna.png",
+      "role": "Bowler",
+      "batting_stats": {
+        "innings": 1,
+        "runs_scored": 0,
+        "strike_rate": 0.0,
+        "average": 0.0,
+        "highest_score": "0",
+        "fours": 0,
+        "sixes": 0
+      },
+      "bowling_stats": {
+        "wickets_taken": 10,
+        "economy": 9.28,
+        "average": 26.0
+      },
+      "fielding_stats": {
+        "run_outs": 0,
+        "catches_taken": 0,
+        "stumpings": 0
+      }
+    }
+  ]
+}

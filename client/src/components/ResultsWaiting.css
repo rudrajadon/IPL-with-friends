@@ -1,0 +1,127 @@
+.results-wait-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: radial-gradient(circle at top right, #1e293b, #09090b);
+}
+
+.results-wait-card {
+  width: min(92vw, 560px);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow:
+    0 25px 50px -12px rgba(0, 0, 0, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.02);
+  padding: 30px 26px;
+  text-align: center;
+  animation: waitCardIn 260ms ease-out;
+}
+
+.results-wait-logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.results-wait-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.results-wait-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #dbeafe;
+  border: 1px solid rgba(96, 165, 250, 0.4);
+  background: rgba(59, 130, 246, 0.14);
+  border-radius: 999px;
+  padding: 6px 11px;
+}
+
+.results-wait-room {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 0.84rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.results-wait-title {
+  margin: 10px 0 8px;
+  color: #f8fafc;
+  font-size: clamp(1.35rem, 3.4vw, 2rem);
+  font-weight: 900;
+}
+
+.results-wait-subtitle {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.results-wait-timer-wrap {
+  margin-top: 16px;
+}
+
+.results-wait-timer {
+  margin: 0 auto;
+  width: 94px;
+  height: 94px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dbeafe;
+  border: 1px solid rgba(96, 165, 250, 0.45);
+  background: rgba(30, 64, 175, 0.25);
+  font-size: 1.5rem;
+  font-weight: 900;
+  box-shadow: 0 0 24px rgba(59, 130, 246, 0.2);
+}
+
+.results-wait-timer-label {
+  margin-top: 8px;
+  color: #94a3b8;
+  font-size: 0.75rem;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.results-wait-progress {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  margin-top: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.results-wait-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #3b82f6, #a78bfa);
+  transition: width 1s linear;
+}
+
+@keyframes waitCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
