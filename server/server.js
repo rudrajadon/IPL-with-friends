@@ -6,6 +6,7 @@ const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
 const cors = require("cors");
+const fs = require("fs");
 const path = require("path");
 const rawPlayers = require("../1.json");
 
@@ -96,6 +97,19 @@ app.use(
 );
 app.use("/files", express.static("files"));
 app.use("/audio", express.static(path.join(__dirname, "../files_mp3")));
+
+const frontendBuildPath = path.join(__dirname, "../build");
+const frontendIndexPath = path.join(frontendBuildPath, "index.html");
+
+if (fs.existsSync(frontendIndexPath)) {
+  app.use(express.static(frontendBuildPath));
+
+  app.get("*", (req, res, next) => {
+    if (req.path.startsWith("/socket.io")) return next();
+    return res.sendFile(frontendIndexPath);
+  });
+}
+
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {

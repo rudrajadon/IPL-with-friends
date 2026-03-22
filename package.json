@@ -5,6 +5,7 @@
   "description": "Root package for CI/CD builds",
   "scripts": {
     "build": "npm --prefix server install --omit=dev --no-audit --no-fund && npm --prefix client install --legacy-peer-deps --no-audit --no-fund && CI=false npm --prefix client run build && rm -rf build && cp -R client/build build",
-    "start": "npm --prefix server start"
+    "start": "npm --prefix server start",
+    "postinstall": "npm --prefix server install --omit=dev --no-audit --no-fund"
   }
 }
