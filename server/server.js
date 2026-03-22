@@ -98,18 +98,6 @@ app.use(
 app.use("/files", express.static("files"));
 app.use("/audio", express.static(path.join(__dirname, "../files_mp3")));
 
-const frontendBuildPath = path.join(__dirname, "../build");
-const frontendIndexPath = path.join(frontendBuildPath, "index.html");
-
-if (fs.existsSync(frontendIndexPath)) {
-  app.use(express.static(frontendBuildPath));
-
-  app.get("*", (req, res, next) => {
-    if (req.path.startsWith("/socket.io")) return next();
-    return res.sendFile(frontendIndexPath);
-  });
-}
-
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
@@ -502,6 +490,18 @@ app.get("/rooms/:roomId/teams", (req, res) => {
   const availableTeams = teams.filter((team) => !takenTeams.includes(team.id));
   res.json(availableTeams);
 });
+
+const frontendBuildPath = path.join(__dirname, "../build");
+const frontendIndexPath = path.join(frontendBuildPath, "index.html");
+
+if (fs.existsSync(frontendIndexPath)) {
+  app.use(express.static(frontendBuildPath));
+
+  app.get("*", (req, res, next) => {
+    if (req.path.startsWith("/socket.io")) return next();
+    return res.sendFile(frontendIndexPath);
+  });
+}
 
 io.on("connection", (socket) => {
   console.log("New client connected");
