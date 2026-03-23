@@ -331,11 +331,6 @@ const Lobby = ({ socket, room, initialRoomState }) => {
 
   return (
     <div className="lobby-page">
-      <div className="fullscreen-prompt">
-        To exit full screen, press and hold
-        <span className="esc-key">esc</span>
-      </div>
-
       <div className="lobby-container">
         <header className="lobby-header glass-card">
           <div className="header-title">
