@@ -17,6 +17,14 @@
   padding: 20px;
 }
 
+/* --- Wrapper to hold your original desktop app --- */
+.desktop-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .home-page .profile-floating {
   position: fixed !important;
   top: 24px !important;
@@ -277,6 +285,7 @@
   font-size: 0.85rem;
   font-weight: 700;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .home-page .auth-mode-btn.active {
@@ -376,29 +385,192 @@
   padding: 16px;
   border-radius: 12px;
   font-style: italic;
+  height: 130px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* CHANGED: Align everything to the top instead of the center */
+  justify-content: flex-start; 
+  overflow: hidden; 
 }
 
 .home-page .fun-fact strong {
   color: #94a3b8;
   font-style: normal;
+  /* Lock the height of the title area */
+  margin-bottom: 8px;
+  line-height: 1;
 }
 
-@media (max-width: 768px) {
-  .home-page .auction-card {
-    grid-template-columns: 1fr;
+.home-page .fact-text-desktop {
+  transition: opacity 0.5s ease-in-out;
+  width: 100%;
+  /* NEW: Tell the fact text to take up the rest of the box and center itself */
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page .fact-text-desktop.fade-in {
+  opacity: 1;
+}
+
+.home-page .fact-text-desktop.fade-out {
+  opacity: 0;
+}
+
+
+/* ==========================================
+   MOBILE COMING SOON OVERLAY (Hidden on Desktop)
+   ========================================== */
+.mobile-only-overlay {
+  display: none;
+}
+
+
+/* ==========================================
+   RESPONSIVE LOGIC (Toggles UI based on screen width)
+   ========================================== */
+@media (max-width: 1100px) {
+  
+  /* Reset home page padding so splash screen can center nicely */
+  .home-page {
+    padding: 0;
   }
 
-  .home-page .info-section {
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 30px;
+  /* Completely hide the desktop interface */
+  .desktop-content-wrapper,
+  .profile-floating {
+    display: none !important;
   }
 
-  .home-page .action-section {
-    padding: 30px;
+  /* Lock the screen to exactly 100% of the visible viewport, preventing scroll */
+  .mobile-only-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh; /* dvh accounts for mobile browser address bars perfectly */
+    overflow: hidden; /* Prevents any scrolling */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: radial-gradient(circle at top, #1e293b, #09090b);
   }
 
-  .home-page .title {
-    font-size: 2.5rem;
+  /* Distribute elements evenly to fit the screen without overflowing */
+  .mobile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    max-height: 800px; /* Prevents it from stretching too far on tall tablets */
+  }
+
+  /* Reduce margins to rely on flexbox spacing instead */
+  .mobile-logo {
+    /* Increased the size significantly (you can tweak the 120px if you want it even bigger) */
+    height: 120px; 
+    display: block;
+    /* margin format: top right bottom left. 
+       Reduced the bottom margin from 20px to 8px to pull the text closer */
+    margin: 0 auto 0px auto; 
+  }
+
+  .mobile-title {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 10px 0;
+    color: #f8fafc;
+  }
+
+  .mobile-subtitle {
+    color: #94a3b8;
+    font-size: clamp(0.9rem, 4vw, 1.1rem);
+    line-height: 1.5;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .mobile-fun-fact {
+    font-size: clamp(0.75rem, 3.5vw, 0.85rem);
+    color: #475569;
+    font-style: italic;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 20px;
+    width: 100%;
+    height: 140px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* CHANGED: Pin the title to the top */
+    justify-content: flex-start; 
+  }
+
+  .mobile-fun-fact strong {
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+
+  .fact-text {
+    transition: opacity 0.5s ease-in-out;
+    width: 100%;
+    /* NEW: Let the fact text fill the remaining height and vertically center */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Fade States toggled by React */
+  .mobile-fun-fact.fade-in {
+    opacity: 1;
+  }
+  
+  .mobile-fun-fact.fade-out {
+    opacity: 0;
+  }
+
+  .fact-text.fade-in {
+    opacity: 1;
+  }
+  
+  .fact-text.fade-out {
+    opacity: 0;
+  }
+
+  .mobile-status-eyebrow {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #94a3b8;
+    margin-bottom: 10px;
+  }
+
+  .mobile-title .highlight {
+    background: linear-gradient(to right, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .mobile-badge {
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    color: #60a5fa;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: inline-block;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.05); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.8; }
   }
 }
