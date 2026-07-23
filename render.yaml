@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: ipl-with-friends
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: CORS_ORIGIN
+        value: https://iplwithfriends.in,https://www.iplwithfriends.in
+      - key: CLERK_SECRET_KEY
+        sync: false
+      - key: REACT_APP_CLERK_PUBLISHABLE_KEY
+        value: pk_live_Y2xlcmsuaXBsd2l0aGZyaWVuZHMuaW4k
+      - key: SKIP_PREFLIGHT_CHECK
+        value: "true"

@@ -1,8 +1,13 @@
 const trimTrailingSlash = (value = "") =>
   String(value || "").replace(/\/+$/, "");
 
+const defaultOrigin =
+  typeof window !== "undefined" && window.location && window.location.origin
+    ? window.location.origin
+    : "http://localhost:4000";
+
 export const API_BASE_URL = trimTrailingSlash(
-  process.env.REACT_APP_API_URL || "http://localhost:4000",
+  process.env.REACT_APP_API_URL || defaultOrigin,
 );
 
 export const SOCKET_URL = trimTrailingSlash(
