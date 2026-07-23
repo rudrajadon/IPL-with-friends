@@ -20,7 +20,12 @@ const IS_OPEN_CORS = ALLOWED_ORIGINS.length === 0;
 const isOriginAllowed = (origin) => {
   if (IS_OPEN_CORS) return true;
   if (!origin) return true;
-  return ALLOWED_ORIGINS.includes(origin);
+  if (ALLOWED_ORIGINS.includes(origin)) return true;
+  try {
+    const hostname = new URL(origin).hostname;
+    if (hostname === "localhost" || hostname.endsWith(".onrender.com")) return true;
+  } catch (_) {}
+  return false;
 };
 
 const TIMER_DURATION_MS = 15000;
